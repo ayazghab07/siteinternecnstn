@@ -1,0 +1,39 @@
+
+
+<div class="container">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="acceuil">CNSTN</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a routerLink="presentation">A Propos</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" >Formulaires du CNSTN
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a routerLink="services_commun">Imprimés direction services communs</a></li>
+        </ul>
+      </li>
+      <li><a routerLink="categories">Catégories</a></li>
+      <li><a routerLink="liens">Liens</a></li>
+    </ul> 
+  </div>
+</nav> 
+</div>
+<div class="dropdown">
+  <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" >Langue
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li><a href="#">Français</a></li>
+    <li class="disabled"><a href="#">arabe</a></li>
+    <li class="active"><a href="#">Anglais</a></li>
+    </ul>
+</div>
+<p>
+  
+    <span class="glyphicon glyphicon-search">recherche</span> 
+ 
+</p>
+
+<router-outlet></router-outlet>
