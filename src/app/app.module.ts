@@ -11,6 +11,9 @@ import { LiensComponent } from './liens/liens.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { PclaComponent } from './pcla/pcla.component';
 import { IntroComponent } from './intro/intro.component';
+import { CnstnComponent } from './cnstn/cnstn.component';
+import { MyfoterComponent } from './myfoter/myfoter.component';
+
 
 
 
@@ -28,6 +31,9 @@ import { IntroComponent } from './intro/intro.component';
     AcceuilComponent,
     PclaComponent,
     IntroComponent,
+    CnstnComponent,
+   
+    MyfoterComponent,
     
     
     

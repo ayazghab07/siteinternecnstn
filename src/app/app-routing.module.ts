@@ -9,6 +9,7 @@ import { PclaComponent } from './pcla/pcla.component';
 
 
 
+
 const routes: Routes = [
   
   { path: 'presentation', component: PresentationComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'liens', component: LiensComponent},
   { path: 'acceuil', component: AcceuilComponent},
   { path :'pcla', component: PclaComponent},
+
  
 
  
